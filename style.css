@@ -1,0 +1,718 @@
+html{
+    height: fit-content;
+    background-image:url(images/wall.jpg);
+   
+    background-repeat: no-repeat;
+     background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+         
+}
+  header{
+    padding-top: 20px;
+    height: 155px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+nav{
+    padding-top: 12px;
+    background-color:rgba(0,0,0,0.500);
+    width: 1024px;
+    text-align: center;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 400px;
+    text-align: center;
+}
+footer{
+    padding-bottom: 5px;
+    height: 25px;
+    background-color:rgba(0,0,0,0.500);
+}
+h1{font-style: italic;
+    font-size: 60px;
+    color: white;  
+    padding-bottom: 30px;
+}
+p{
+    font-size: 23px;
+    color: white;
+    padding-bottom: 30px;
+}
+button{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+nav a {
+    font-size: 25px;
+   text-decoration: none;
+   padding-left: 40px;
+   padding-right: 40px;
+   color: white;
+}
+footer p{
+    text-align: center;
+     font-size: 20px;
+     
+}
+form{
+    color: aliceblue;
+   padding-top: 30px;
+    text-align: center;
+  
+}
+input{color: white;
+    background-color:rgba(0,0,0,0.500);
+    width: 200px;
+    height: 20px;
+}
+button{
+    width: 150px;
+}
+.cont{
+    background-color:rgba(0,0,0,0.500);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 300px;
+    margin-left: 590px;
+   
+    
+  
+}
+.person{
+ justify-content: space-around;
+ justify-content: space-between;
+}
+.wrap1{ 
+    margin-top: 25px;
+     flex: 1;
+     background-color:rgba(0,0,0,0.500);
+    padding: 25px;
+ }
+ .food{
+     margin-left: 40px;
+     display: flex;
+     gap: 1 rem;
+     
+     width: 95%;
+ }
+ .food>div{
+     flex: 1;
+     transition: all 1s;
+     height: 300px;
+ }
+ .food > div:nth-child(1){
+    background: url("images/wall.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+ .food > div .add-to-cart1 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart1 {
+    display: inline-flex;
+}
+
+ .food > div:nth-child(2){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .food > div .add-to-cart2 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart2 {
+    display: inline-flex;
+}
+ .food > div:nth-child(3){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ 
+ }
+ .food > div .add-to-cart3 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart3 {
+    display: inline-flex;
+}
+ .food > div:nth-child(4){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .food > div .add-to-cart4 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart4 {
+    display: inline-flex;
+}
+ .food > div:nth-child(5){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .food > div .add-to-cart5 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart5 {
+    display: inline-flex;
+}
+ .food > div:nth-child(6){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .food > div .add-to-cart6 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart6 {
+    display: inline-flex;
+}
+ .food > div:nth-child(7){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .food > div .add-to-cart7 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food > div:hover .add-to-cart7 {
+    display: inline-flex;
+}
+ .food>div:hover{
+     flex:7;
+ }
+ .wrap2{ 
+     margin-top: 25px;
+      flex: 1;
+      background-color:rgba(0,0,0,0.500);
+     padding: 25px;
+  }
+  .food1{
+      margin-left: 40px;
+      display: flex;
+      gap: 1 rem;
+      width: 95%;
+  }
+  .food1>div{
+      flex: 1;
+      transition: all 1s;
+      height: 300px;
+  }
+  .food1> div:nth-child(1){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .food1 > div .add-to-cart8 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart8 {
+    display: inline-flex;
+}
+  .food1> div:nth-child(2){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .food1 > div .add-to-cart9 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart9 {
+    display: inline-flex;
+}
+  .food1> div:nth-child(3){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  
+  }
+  .food1 > div .add-to-cart10 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart10 {
+    display: inline-flex;
+}
+  .food1> div:nth-child(4){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .food1 > div .add-to-cart11 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart11 {
+    display: inline-flex;
+}
+  .food1> div:nth-child(5){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .food1 > div .add-to-cart12 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart12 {
+    display: inline-flex;
+}
+  .food1> div:nth-child(6){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .food1 > div .add-to-cart13 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart13 {
+    display: inline-flex;
+}
+  .food1 > div:nth-child(7){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+    
+  }
+  .food1 > div .add-to-cart14 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.500);
+    width: fit-content;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+/* Show the button when the food item expands */
+.food1 > div:hover .add-to-cart14 {
+    display: inline-flex;
+}
+  .food1>div:hover{
+      flex:7;
+  }
+.maps{ 
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contactfoot{
+    padding-top: 1px;
+    background-color:rgba(0,0,0,0.500)
+}
+.wrap3{ 
+    margin-top: 25px;
+     flex: 1;
+     background-color:rgba(0,0,0,0.500);
+    padding: 25px;
+ }
+ .gallery{
+     margin-left: 40px;
+     display: flex;
+     gap: 1 rem;
+     
+     width: 95%;
+ }
+ .gallery>div{
+     flex: 1;
+     transition: all 1s;
+     height: 300px;
+ }
+ .gallery> div:nth-child(1){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .gallery > div:nth-child(2){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .gallery > div:nth-child(3){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ 
+ }
+ .gallery > div:nth-child(4){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .gallery > div:nth-child(5){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .gallery> div:nth-child(6){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ .gallery> div:nth-child(7){
+     background: url("images/wall.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+.gallery>div:hover{
+     flex:7;
+ }
+ .wrap4{ 
+     margin-top: 25px;
+      flex: 1;
+      background-color:rgba(0,0,0,0.500);
+     padding: 25px;
+  }
+  .gallery1{
+      margin-left: 40px;
+      display: flex;
+      gap: 1 rem;
+      
+      width: 95%;
+  }
+  .gallery1>div{
+      flex: 1;
+      transition: all 1s;
+      height: 300px;
+  }
+  .gallery1> div:nth-child(1){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1> div:nth-child(2){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1> div:nth-child(3){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  
+  }
+  .gallery1> div:nth-child(4){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1> div:nth-child(5){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1> div:nth-child(6){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1 > div:nth-child(7){
+      background: url("images/wall.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  .gallery1>div:hover{
+      flex:7;
+  }
+
+.order1{
+    height: 150px;
+    color: white;
+    background-color:rgba(0,0,0,0.500);
+    margin: 20px;
+    text-align: left;
+    
+}
+.order2{
+    height: 150px;
+    color: white;
+    background-color:rgba(0,0,0,0.500);
+    margin: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

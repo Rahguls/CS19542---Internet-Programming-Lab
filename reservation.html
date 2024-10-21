@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.JPG" alt="Logo for Slughar restaurant">
+    </header>
+
+    <nav>
+        
+        <a href="index.html">HOME</a>
+        <a href="menu .html">MENU</a>
+        <a href="order.html">ORDER</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="gallery.html">GALLERY</a>
+
+        </nav>
+        <form name="Reservation" method="post" action="process.php">
+            <div class="cont"> 
+                <p>Reserve Table</p>
+
+                <div class="n" >
+                    Name <input type="text" name="name"></div><br>
+                    <div class="email">      Email<input type="email" name="email"></div><br>
+                    <div class="phone">   Phone<input type="number" name="number"></div><br>
+                    <div class="person" style="padding-left: 10px;">    Adult <select><option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                    Child<select><option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option></select></div><br>
+                        
+                        <div class="date">       Date<input type="date" name="date"></div><br>
+                        <div class="time">     Time<input type="time" name="time"></div><br>
+                        <button style="background-color:rgba(0,0,0,0.500);">Reserve</button>
+                    </div>
+    </form>
+    <footer><p>Slughar restaurant- Copyright © 2022</p></footer>
+</body>
+</html>
